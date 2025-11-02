@@ -1,0 +1,44 @@
+\documentclass{pocketcard}
+
+\begin{document}
+
+\centering
+\textbf{\Large DECK 4: 3RD LEVEL SUPPORT / TRIAGE}
+\vspace{0.1cm}
+\hrule
+\textbf{\footnotesize IS/IS NOT ANALYSIS, ISOLATION, \& EVIDENCE COLLECTION}
+
+\vspace{0.5cm}
+
+\cardsection{1. Isolation Mandate (The First Action)}
+
+\subsectiontitle{CONTAINMENT BEFORE INVESTIGATION}
+\begin{itemize}
+    \item \textbf{Network}: Is the affected resource isolated (firewall, routing changes)? \textbf{Containment > Root Cause}.
+    \item \textbf{Access}: Revoke/cycle the service account credentials used by the affected process/deployment.
+    \item \textbf{Backups}: Initiate immutable snapshot of the affected data/disk for forensic analysis.
+\end{itemize}
+
+\cardsection{2. Is / Is Not Analysis}
+
+\subsectiontitle{ATTACK VS. BUG}
+\begin{tabularx}{\linewidth}{|p{1.2cm}|X|}
+\hline
+\textbf{Is} & A known bug? A feature of the system? Performance failure? \\
+\hline
+\textbf{Is Not} & An external attack? (Look for unusual admin access, credential failures, or data exfiltration). \\
+\hline
+\textbf{Time Limit} & If A-vs-B is not clear in \textbf{15 minutes}, escalate to security incident. \\
+\hline
+\end{tabularx}
+
+\cardsection{3. Evidence Integrity}
+
+\subsectiontitle{LOGS \& METRICS CHECK}
+\begin{itemize}
+    \item \textbf{Logs}: Check logs and audit trails from a \textbf{separate, secure system} (e.g., SIEM or log shipper). Do not rely on logs from the compromised machine.
+    \item \textbf{Timestamps}: Do all timestamps look consistent (no major gaps or jumps in historical data)?
+    \item \textbf{Data Loss}: Has data been deleted or encrypted? (Critical security indicator.)
+\end{itemize}
+
+\end{document}

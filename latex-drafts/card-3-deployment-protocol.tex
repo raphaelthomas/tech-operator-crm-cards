@@ -1,0 +1,47 @@
+\documentclass{pocketcard}
+
+\begin{document}
+
+\centering
+\textbf{\Large DECK 3: DEPLOYMENT PROTOCOL}
+\vspace{0.1cm}
+\hrule
+\textbf{\footnotesize PROACTIVE SAFETY, ROLLBACK, \& ACCESS CONTROL}
+
+\vspace{0.5cm}
+
+\cardsection{1. AIM-C Pre-Deployment Brief}
+
+\subsectiontitle{READ ALOUD TO THE TEAM BEFORE EXECUTION}
+\begin{tabularx}{\linewidth}{|p{0.9cm}|X|}
+\hline
+\textbf{A} & \textbf{Activity}: What are we doing? (The exact command/script.) \\
+\hline
+\textbf{I} & \textbf{Intent}: What is the expected outcome/system state? \\
+\hline
+\textbf{M} & \textbf{Must-Haves}: What absolutely cannot fail (P0 metrics)? \\
+\hline
+\textbf{C} & \textbf{Callout}: \textbf{Who} monitors the rollback trigger condition? \\
+\hline
+\end{tabularx}
+
+\cardsection{2. Security Readiness Check}
+
+\subsectiontitle{MANDATORY GATES (1-Minute Scan)}
+\begin{itemize}
+    \item \textbf{Secrets}: Are new secrets/keys being deployed? Are they vaulted and non-default?
+    \item \textbf{Least Privilege}: Does the service/process only have the minimum required permissions?
+    \item \textbf{Firewall}: Are new ports opened? Are they restricted to necessary sources/IPs?
+    \item \textbf{Audit}: Is logging enabled for ALL new resources being created?
+\end{itemize}
+
+\cardsection{3. Rollback Procedure}
+
+\subsectiontitle{THE GOLDEN RULE}
+\begin{itemize}
+    \item \textbf{Exit Criteria}: Define the *exact* metrics/errors that trigger an instant STOP and ROLLBACK.
+    \item \textbf{One Command}: Rollback must be a single, pre-tested command, executable by at least 2 people.
+    \item \textbf{Credentials}: Do NOT use production keys/credentials to pull logs or debug during rollback; use separate, limited-scope keys.
+\end{itemize}
+
+\end{document}
