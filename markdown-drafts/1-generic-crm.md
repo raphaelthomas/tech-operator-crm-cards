@@ -1,6 +1,6 @@
-# 💳 CRM Pocket Card: IT Operations
+# 💳 Tech Operator Generic CRM Pocket Card
 
-This is the pocket card template, incorporating all the core CRM principles and the selected IT-focused tools (**FOR-DEC, BAT, Sterile Cockpit, PACE, IMSAFE**).
+This pocket card incorporates core CRM principles and selected IT-focused tools (**FOR-DEC, BAT, Sterile Cockpit, PACE, IMSAFE**).
 
 ## 🤝 CORE PILLARS & PRINCIPLES
 
@@ -23,7 +23,8 @@ This is the pocket card template, incorporating all the core CRM principles and 
 | **S**tress | Am I worried, angry, or distracted? |
 | **A**lcohol / **F**atigue | Am I rested and clear-headed (the **8-Hour Rule** applies\!)? |
 | **E**motion | Am I in an emotionally stable state (overly frustrated or confident)? |
-| **Self-Care Action:** If the answer is "No" to any check, **demand a break or a handoff immediately.** |
+
+**Self-Care Action:** If the answer is "No" to any check, **demand a break or a handoff immediately.**
 
 
 ## 🛠️ CRITICAL ACTION FRAMEWORKS
