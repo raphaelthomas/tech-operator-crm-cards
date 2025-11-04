@@ -1,4 +1,4 @@
-# 💳 Tech Operator Generic CRM Pocket Card
+# 💳 Tech Operator Generic CRM Card
 
 This pocket card incorporates core CRM principles and selected IT-focused tools (**FOR-DEC, BAT, Sterile Cockpit, PACE, IMSAFE**).
 

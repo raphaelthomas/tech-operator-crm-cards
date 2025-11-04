@@ -1,12 +1,8 @@
-That decision makes perfect sense. Focusing the card on **Self-Regulation, Structured Thinking, and Efficient Escalation** is the highest-value approach for a solo operator.
+# 🛑 Tech Operator Solo Operations Card
 
-Here is the two-page pocket card template designed specifically for a **Single Operator / Solo Responder** in a high-stress IT environment, in Markdown format.
+Focus **Self-Regulation, Structured Thinking, and Efficient Escalation** as highest-value approach for a solo operator.
 
----
-
-## 🛑 Solo Operator CRM Pocket Card (Page 1 of 2)
-
-### 🧠 FOCUS & STABILITY (Internal Check)
+## 🧠 FOCUS & STABILITY (Internal Check)
 
 | 🎯 **CRITICAL ACTION** | **ACTION / REMINDER** |
 | :--- | :--- |
@@ -15,9 +11,7 @@ Here is the two-page pocket card template designed specifically for a **Single O
 | **3. Risk Tolerance** | **KISS Rule (Keep It Simple, Stupid):** When selecting an option, **prefer the simplest, lowest-risk action** that solves the immediate problem. Avoid complex, multi-step solutions during high stress. |
 | **4. Call for Help** | **The 3-Second Rule:** If you are *thinking* about calling for help, **do it now.** Don't wait until the situation is catastrophic. |
 
----
-
-### 🟢 SBAR: ESCALATION & HANDOFF FRAMEWORK
+## 🟢 SBAR: ESCALATION & HANDOFF FRAMEWORK
 
 Use this framework when calling a specialist, handing off the incident, or providing a critical update to a stakeholder.
 
@@ -28,11 +22,7 @@ Use this framework when calling a specialist, handing off the incident, or provi
 | **A**ssessment | **What is your conclusion or analysis?** (What you think is happening, severity, risk.) | *“I suspect a resource exhaustion issue. We are at risk of data loss if not resolved quickly.”* |
 | **R**ecommendation | **What action do you need from them?** (Specific request for next step/help.) | *“I need you to join the bridge and take the lead on DB diagnostics.”* |
 
----
-
-## ⚙️ Solo Operator CRM Pocket Card (Page 2 of 2)
-
-### 🛠️ FOR-DEC: STRUCTURED PROBLEM SOLVING
+## 🛠️ FOR-DEC: STRUCTURED PROBLEM SOLVING
 
 | FRAMEWORK | **SOLO ENGINEER ACTIONS** |
 | :--- | :--- |
@@ -43,9 +33,7 @@ Use this framework when calling a specialist, handing off the incident, or provi
 | **5. E**xecution | **Verify & Act:** Execute the change **slowly and deliberately**. Verbalize the command before hitting Enter. |
 | **6. C**heck & Control | **Verify:** Check metrics/logs to confirm the action worked. If not, **return to Step 1 (Facts).** |
 
----
-
-### 📝 ERROR PREVENTION PROTOCOL
+## 📝 ERROR PREVENTION PROTOCOL
 
 | RULE | ACTION / INSTRUCTION |
 | :--- | :--- |
