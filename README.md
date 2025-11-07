@@ -12,8 +12,8 @@ efficient handover.
 1. [Solo Operations Card](./use/4-solo-incident-response.md)
 1. [3rd Level Support Card](./use/5-support-engineer.md)
 
-## TRAIN - one concept per document explanations
+## LEARN - one concept per document explanations
 
-- [5 Whys](./train/5-whys.md)
-- [FOR-DEC](./train/for-dec-decision-protocol.md)
-- [SBAR(C)](./train/sbarc.md)
+- [5 Whys](./learn/5-whys.md)
+- [FOR-DEC](./learn/for-dec-decision-protocol.md)
+- [SBAR(C)](./learn/sbarc.md)
