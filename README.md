@@ -14,4 +14,6 @@ efficient handover.
 
 ## TRAIN - one concept per document explanations
 
-tbd
+- [5 Whys](./train/5-whys.md)
+- [FOR-DEC](./train/for-dec-decision-protocol.md)
+- [SBAR(C)](./train/sbarc.md)
