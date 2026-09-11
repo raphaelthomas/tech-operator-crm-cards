@@ -26,3 +26,7 @@ Each role answers by name, aloud. Any No-Go stops it. **Silence is not a Go.**
 | **Irreversible action** | Two-person rule — Monitor confirms before you commit it. |
 | **Every command** | Point and call: read it aloud, Monitor confirms, then execute. |
 | **Trigger hit** | Roll back. Do not reopen the decision. |
+
+### Solo
+- Irreversible action: there is no solo two-person rule. Defer it, or wake someone.
+- No Monitor: read the command aloud to yourself, and name the three failures anyway.
