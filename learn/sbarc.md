@@ -24,6 +24,12 @@ The **check-back** is a separate technique, from AHRQ's TeamSTEPPS programme: th
 repeats the message and the sender confirms it. It is the same closed loop as nuclear
 operations' three-way communication.
 
+When the handover transfers *responsibility* and not just information, aviation adds a
+positive exchange of control — "You have control" / "I have control" / "You have control"
+— so that the moment of transfer is explicit and witnessed. Accidents have followed from
+both pilots believing the other was flying, which is the same failure as two engineers each
+assuming the other owns the incident.
+
 Note that the assessment step is deliberately a *judgement*, not data. Leonard and
 colleagues' point is that juniors are often trained to report observations and leave
 conclusions to seniors, which loses the information most worth having.
@@ -51,6 +57,7 @@ Handing an incident to a fresh commander:
    cluster intervention."
 5. **Check-back** — *"Taking command, calling platform for manual intervention. Correct?"*
    — "Correct."
+6. **Transfer** — "You have control." — "I have control." — "You have control."
 
 ## Limits
 

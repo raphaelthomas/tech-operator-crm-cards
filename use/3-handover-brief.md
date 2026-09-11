@@ -11,8 +11,14 @@
 
 ## Check-back
 
-They repeat it back. You confirm. Then say it plainly:
+They repeat the brief back. You confirm.
 
-> **"You are now the incident commander."**
+## Transfer control
 
-Wait for the acknowledgement. **It is not handed over until you hear it.**
+Three exchanges, out loud, in this order:
+
+> — **"You have control."**
+> — **"I have control."**
+> — **"You have control."**
+
+**It is not handed over until all three have been said.**
