@@ -61,6 +61,6 @@ seniority in the room.
 
 ## Limits
 
-A ladder on a card does not create the psychological safety to climb it. If challenges are
-punished, people will stop at probe and the tool becomes theatre. The senior person's
-behaviour after the first challenge determines whether there is ever a second.
+The ladder does not by itself create the conditions for using it. Where challenges are
+poorly received, people stop at the probe step. How the senior person responds to the first
+challenge largely determines whether there is a second.

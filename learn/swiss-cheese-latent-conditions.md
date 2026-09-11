@@ -55,7 +55,7 @@ people who were not present that evening.
 
 ## Limits
 
-The metaphor is popular partly because it is comforting — it implies a tidy stack of
-independent barriers, where real systems have couplings, and it can encourage endless
-layering rather than simplification. It also says little about how *success* is normally
-produced; for that see [Safety-II and Work-as-Done](./safety-ii-wad-wai.md).
+The metaphor implies independent barriers, where real systems have couplings between them,
+and it can suggest adding layers where simplifying would serve better. It also says little
+about how success is normally produced; for that see [Safety-II and
+Work-as-Done](./safety-ii-wad-wai.md).

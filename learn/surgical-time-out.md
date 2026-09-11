@@ -51,7 +51,6 @@ loud to someone else.
 
 ## Limits
 
-Checklists decay into ritual. The observable warning sign is a time-out that nobody ever
-fails — if no change has been stopped by one in a year, it has become a recitation.
-Keep it short enough to mean something, and make stopping genuinely acceptable, or the
-team will learn the answer is always yes.
+Checklists tend to become routine over time. A useful warning sign is a time-out that
+nothing ever fails — if no change has been stopped by one in a year, it is likely being
+recited rather than run. Keep it short, and make stopping genuinely acceptable.

@@ -59,7 +59,7 @@ the engineer leaving.
 
 ## Limits
 
-It is easy to claim and hard to do, and it collapses the first time someone is quietly
-moved off a team after a review. It also does not, by itself, explain how the system
+The practice depends on being real: if people are quietly moved off teams after reviews,
+the stated policy stops mattering. It also does not by itself explain how the system
 normally succeeds; pair it with the Work-as-Done prompts in [Safety-II and
 Work-as-Done](./safety-ii-wad-wai.md).

@@ -52,6 +52,5 @@ no help when prod was always the wrong target. Pair it with a second person
 ([Two-Person Rule](./two-person-rule.md)), whose value is an independent picture rather
 than a second pair of eyes on yours.
 
-Quantified evidence in English is also thin. The practice is unusually well attested by
-adoption, but if you want a controlled trial before committing to something, this is not
-the technique that will give you one.
+Quantified evidence in English is also thin. The practice is attested mainly by long
+adoption rather than by controlled trials.

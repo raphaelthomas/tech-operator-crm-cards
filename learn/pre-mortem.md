@@ -47,7 +47,6 @@ people in the room and mentioned by none until failure was assumed.
 
 ## Limits
 
-It surfaces failure modes people already suspect. It will not find genuinely unknown
-unknowns, and it is not a substitute for testing the rollback. It also degrades quickly
-into theatre if the plan never changes as a result — if you have run three premortems and
-revised nothing, people have correctly learned that the exercise is decorative.
+It surfaces failure modes people already suspect, so it will not find genuine unknowns, and
+it does not replace testing the rollback. Its value also depends on the plan actually
+changing as a result; premortems that never change anything stop being taken seriously.

@@ -59,6 +59,6 @@ disk alert was filed as confirmation instead of contradiction.
 
 ## Limits
 
-Naming the bias does not prevent it, and knowing the three patterns will not help you spot
-your own in the moment. Only the pre-committed limit and the outside observer reliably
-work, which is why they belong on the card rather than here.
+Naming the bias does not prevent it, and knowing the three patterns does not help you
+recognise your own in the moment. The countermeasures that work are external or
+pre-committed, which is why they belong on the card rather than here.

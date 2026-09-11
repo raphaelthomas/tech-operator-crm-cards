@@ -57,8 +57,7 @@ resilience risk — which would also have produced the next three incidents.
 
 ## Limits
 
-The 5 Whys is widely criticised, and fairly. It follows a *single* causal chain when real
-incidents have several; different facilitators reliably reach different "root causes" from
-the same evidence; and the framing of "root cause" itself suggests failure has one origin,
-which complex systems rarely oblige. Use it to open up an investigation, not to close one,
-and pair it with a method that spreads sideways.
+The technique attracts criticism on three points: it follows a single causal chain where
+incidents usually have several, different facilitators reach different conclusions from the
+same evidence, and the term "root cause" implies a single origin. It works better to open an
+investigation than to close one; pair it with a method that spreads sideways.

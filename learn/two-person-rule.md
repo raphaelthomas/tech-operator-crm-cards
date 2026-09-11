@@ -50,8 +50,7 @@ this land in, and what breaks if it's wrong?" would not have.
 
 ## Limits
 
-It is the control most prone to becoming ceremony — rubber-stamped approvals are close to
-worthless and are worse than nothing when they create false confidence. It also doubles the
-cost of every guarded action, so a list that is too long trains people to route around it.
-Guard the genuinely irreversible, and make the reviewer's job explicit so they know they
-are being asked to concur, not to witness.
+Approvals given without real review provide little protection while still creating
+confidence. The rule also doubles the cost of every guarded action, so a long list invites
+workarounds. Guard the genuinely irreversible, and make clear that the reviewer is being
+asked to concur rather than to witness.

@@ -54,6 +54,6 @@ technically unchanged and operationally much worse.
 
 ## Limits
 
-ICS is designed for incidents with scale. Imposing a three-role structure on a
-fifteen-minute blip is overhead, and teams that are made to do it stop believing in it.
-Use it when the incident outlives one person's attention, and let small things stay small.
+ICS is designed for incidents with scale, and a three-role structure is overhead on a short
+one. Use it when the incident outlives one person's attention, and let small things stay
+small.
