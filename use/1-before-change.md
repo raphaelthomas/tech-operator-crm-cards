@@ -12,7 +12,7 @@
 
 ## Pre-mortem
 
-It is three hours from now and this has failed. **Why?** Name three. Mitigate or accept each, aloud.
+The change has failed. **Why?** Name three. Mitigate or accept each, aloud.
 
 ## Go / No-Go
 
@@ -24,4 +24,4 @@ Each role answers by name, aloud. Any No-Go stops it. **Silence is not a Go.**
 | :--- | :--- |
 | **Irreversible action** | Two-person rule — Monitor confirms before you commit it. |
 | **Every command** | Point and call: read it aloud, Monitor confirms, then execute. |
-| **Trigger hit** | Roll back. The decision was made in the brief — do not reopen it now. |
+| **Trigger hit** | Roll back. Do not reopen the decision. |
