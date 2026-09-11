@@ -1,61 +1,59 @@
-# SBAR(C) Communication Protocol: Structured Handover and Update 💬
+# SBAR(C) 💬
 
-The **SBAR(C)** model (Situation, Background, Assessment, Recommendation, Checkback) is a foundational communication technique for providing critical information quickly, concisely, and reliably. It is highly effective in technology incident management for escalating issues or passing control to a new Incident Commander.
+## What it is
 
----
+A four-part structure for handing over or escalating — **S**ituation · **B**ackground ·
+**A**ssessment · **R**ecommendation — plus a **C**heck-back to confirm it landed.
 
-## The Five Steps of SBAR(C)
+It solves a specific failure: the person with the information tells a story, and the
+person who needs it wants a conclusion and an ask. SBAR puts the headline first and forces
+the sender to commit to a judgement rather than dumping raw data.
 
-| **Mnemonic** | **Full Meaning** | **Description & Application** |
-| :--- | :--- | :--- |
-| **S**ITUATION 🚨 | **What is happening right now?** | **(The 30-Second Hook)** Define the core problem and its immediate impact. Keep it current and direct. *Example: "Service A is completely down. Customers are seeing a 503 error on checkout."* |
-| **B**ACKGROUND | **The necessary context.** | **(The Why/How)** Provide brief, relevant history. What caused this? What have we checked? *Example: "A new database schema migration (v2.1) was deployed 10 minutes ago. We tried rolling it back, but the rollback failed."* |
-| **A**SSESSMENT 🧠 | **What is your analysis?** | **(Your Best Guess)** State what you believe the problem is and how severe it is. This is your professional judgment, not just raw data. *Example: "Assessment: This is a data incompatibility issue. We need a manual data repair before the application can start."* |
-| **R**ECOMMENDATION | **What do you need?** | **(The Action Request)** State clearly and directly the next step, the resources you need, or the decision you require from the recipient. *Example: "Recommendation: I need the senior database engineer immediately to write the manual repair script."* |
-| **(C) CHECKBACK** 👂 | **Verify Receipt.** | **(Closing the Loop)** The person receiving the information must repeat the key actions or information back to confirm understanding. *Example: Recipient: "Understood. Get the senior DB engineer for a manual repair script. Correct?" Sender: "Correct."* |
+## Origin & evidence
 
----
+SBAR comes from **US Navy nuclear submarines**, where officers briefed the captain in that
+order. Doug Bonacum brought it to healthcare, and with Michael Leonard and Suzanne Graham
+introduced it at Kaiser Permanente in Colorado around 2002. It is now standard in
+hospitals worldwide.
 
-## Practical Example: Escalating a Broken Deploy
+> Leonard, M., Graham, S. & Bonacum, D. (2004). *The human factor: the critical importance
+> of effective teamwork and communication in providing safe care.* Quality and Safety in
+> Health Care 13(Suppl 1):i85–i90. https://doi.org/10.1136/qshc.2004.010033
 
-A junior operator calls a senior engineer:
+The **check-back** is a separate technique, from AHRQ's TeamSTEPPS programme: the receiver
+repeats the message and the sender confirms it. It is the same closed loop as nuclear
+operations' three-way communication.
 
-1.  **SITUATION:** "We have a P1. The user service is completely offline due to the latest release."
-2.  **BACKGROUND:** "Deployment D14 failed 5 minutes ago. It's hanging on the Kubernetes health check. The logs show a missing environment variable that was required for the update."
-3.  **ASSESSMENT:** "I believe the deployment manifest is incorrect, and the previous version is now stuck in a bad state due to dependency locks."
-4.  **RECOMMENDATION:** "I need you to look at the manifest files and authorize a force-delete of the deployment so we can manually roll back to the stable tag."
-5.  **CHECKBACK:** *Senior Engineer: "So, I need to review the manifest and authorize a force-delete/manual rollback. Is that correct?"*
+Note that the assessment step is deliberately a *judgement*, not data. Leonard and
+colleagues' point is that juniors are often trained to report observations and leave
+conclusions to seniors, which loses the information most worth having.
 
+## How to run it
 
+| Step | What you say |
+| :--- | :--- |
+| **S**ituation | What is happening now, and who it affects |
+| **B**ackground | What changed, what you already tried |
+| **A**ssessment | What you think it is, and how bad — your judgement, stated |
+| **R**ecommendation | Exactly what you need from them |
+| **C**heck-back | They repeat it; you confirm |
 
-# SBARC Communication Protocol: Structured Handover and Update 💬
+## Worked example
 
-## 1. Introduction: What It Is
+Handing an incident to a fresh commander:
 
-The **SBARC** model (Situation, Background, Assessment, Recommendation, Checkback) is a foundational communication technique for providing critical information quickly, concisely, and reliably. It standardizes the message structure to prevent miscommunication, especially during escalation or handover to a new Incident Commander.
+1. **Situation** — "P1. The European API is at a 100% failure rate."
+2. **Background** — "Started 45 minutes ago with the v3.1 EU deploy. Rollback is stuck;
+   the old version won't clear."
+3. **Assessment** — "I think this is the deployment system, not the code. We breach the
+   SLA in fifteen minutes."
+4. **Recommendation** — "Take command, and get the on-call platform engineer for manual
+   cluster intervention."
+5. **Check-back** — *"Taking command, calling platform for manual intervention. Correct?"*
+   — "Correct."
 
----
+## Limits
 
-## 2. Theory and Background
-
-SBAR originated in nursing to ensure critical patient data was transferred accurately and efficiently between medical staff. Its use in technical operations ensures that the recipient of a message receives the full context needed to make the next decision, eliminating time wasted asking clarifying questions. The addition of **Checkback (C)**, borrowed directly from Crew Resource Management (CRM), ensures the loop is closed and the message was understood correctly by the recipient.
-
-| **Mnemonic** | **Purpose** | **Focus** |
-| :--- | :--- | :--- |
-| **S**ITUATION 🚨 | The immediate state. | What is the problem *right now*? |
-| **B**ACKGROUND | Necessary context. | What led to this? What have you tried? |
-| **A**SSESSMENT 🧠 | Your professional judgment. | What do you *believe* the problem is? |
-| **R**ECOMMENDATION | Call for action/resource. | What do you need the recipient to do next? |
-| **C**HECKBACK 👂 | Confirmation. | Did the recipient understand the ask? |
-
----
-
-## 3. Example: Escalating a Broken Deploy
-
-**Operator A to New Incident Commander (IC B):**
-
-1.  **SITUATION:** "IC B, we have a P1. The entire European API endpoint is reporting a 100% failure rate."
-2.  **BACKGROUND:** "This started 45 minutes ago. It correlates with a failed deployment (v3.1) in the EU region. We have tried a full rollback, but the deployment system is stuck in a zombie state and won't clear the old version."
-3.  **ASSESSMENT:** "I assess this as a K8s deployment system fault, not a code problem. The immediate risk is a massive financial penalty for SLA breach."
-4.  **RECOMMENDATION:** "I recommend you take command and immediately contact the senior DevOps engineer for manual K8s cluster intervention."
-5.  **CHECKBACK:** **IC B:** "Understood. I'm taking command. My first action is contacting senior DevOps for manual K8s intervention. Correct?" **Operator A:** "Correct."
+SBAR is built for one sender, one receiver, one ask. It does not structure a group
+discussion, and it is a poor fit when the problem is genuinely not yet understood — an
+honest "I don't know what this is" is better than an assessment invented to fill the slot.
