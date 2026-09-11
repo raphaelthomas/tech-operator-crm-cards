@@ -1,19 +1,33 @@
 # Tech Operator CRM Cards
 
-Tactical Crew Resource Management (CRM) and Incident Command pocket guides for
-technical operators, designed for rapid, high-stress decision-making and
-efficient handover.
+Crew Resource Management and incident command pocket cards for technical operators,
+for rapid decision-making under stress and clean handover.
 
-## USE - aide-memoire cards for high stress situations
+Every technique comes from a field that has paid for it — aviation, anaesthesia, nuclear
+operations, emergency medicine, wildfire command. Nothing here is invented. See
+[SOURCES.md](./SOURCES.md).
 
-1. [Core CRM Card](./use/1-core-crm.md)
-1. [Post Incident Review Card](./use/2-post-incident-review.md)
-1. [Deployment Safety Card](./use/3-deployment-safety.md)
-1. [Solo Operations Card](./use/4-solo-incident-response.md)
-1. [3rd Level Support Card](./use/5-support-engineer.md)
+## USE — cards for the moment
 
-## LEARN - one concept per document explanations
+Organised by point in time. Each card is a memory aid, not a lesson: mnemonics are spelled
+out so you never have to look anything up mid-incident.
+
+1. [Start Here](./use/0-start-here.md) — which card, and what is always true
+1. [Before a Change](./use/1-before-change.md) — time-out, pre-mortem, go/no-go
+1. [During an Incident](./use/2-during-incident.md) — reset, scope, decide, stop rules
+1. [Handover Brief](./use/3-handover-brief.md) — SBAR and check-back
+1. [Blameless Postmortem](./use/4-blameless-postmortem.md) — after an incident or a change
+
+## LEARN — one concept per document
+
+Theory, origin, worked example, and the limits of each technique.
 
 - [5 Whys](./learn/5-whys.md)
 - [FOR-DEC](./learn/for-dec-decision-protocol.md)
 - [SBAR(C)](./learn/sbarc.md)
+
+More are planned — see [TODO.md](./TODO.md).
+
+## License
+
+[MIT](./LICENSE)
