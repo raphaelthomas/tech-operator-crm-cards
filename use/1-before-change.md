@@ -9,6 +9,7 @@
 | **Rollback** | Tested, and how long it takes to run |
 | **Trigger** | The exact condition that means roll back. State it as a number, now. |
 | **Time-box** | When we stop and reassess regardless of progress |
+| **Gotchas** | Anything known about this system that is not in the runbook? Ask each person by name. |
 
 ## Pre-mortem
 
