@@ -1,6 +1,6 @@
 # 🚦 Before a Change
 
-## Time-Out — stop, out loud, everyone
+## Time-Out - stop, out loud, everyone
 
 | | |
 | :--- | :--- |
@@ -23,7 +23,7 @@ Each role answers by name, aloud. Any No-Go stops it. **Silence is not a Go.**
 
 | | |
 | :--- | :--- |
-| **Irreversible action** | Two-person rule — Monitor confirms before you commit it. |
+| **Irreversible action** | Two-person rule - Monitor confirms before you commit it. |
 | **Every command** | Point and call: read it aloud, Monitor confirms, then execute. |
 | **Trigger hit** | Roll back. Do not reopen the decision. |
 

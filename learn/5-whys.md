@@ -7,7 +7,7 @@ until you reach a cause worth fixing.
 
 In incident review one rule governs it: **never accept human error as the final answer.**
 "The engineer forgot the step" is where the investigation gets interesting, not where it
-stops. Each answer should move outward — from the action, to the condition that allowed
+stops. Each answer should move outward - from the action, to the condition that allowed
 it, to the decision that created the condition.
 
 | Depth | Moves from | To |
@@ -28,7 +28,7 @@ Developed by **Sakichi Toyoda** at Toyota in the early twentieth century and for
 > Cambridge, MA: Productivity Press.
 
 The blameless framing is a later addition from software incident practice, where the
-technique is paired with Reason's latent conditions — see [Safety-II and
+technique is paired with Reason's latent conditions - see [Safety-II and
 Work-as-Done](./safety-ii-wad-wai.md) for the strongest version of that argument.
 
 ## How to run it
@@ -53,7 +53,7 @@ Work-as-Done](./safety-ii-wad-wai.md) for the strongest version of that argument
 | 5 | Why did that trade look correct? | Resilience risk was never quantified, so it could not compete with revenue in planning. |
 
 The fix is not "automate the rollback." It is that the planning process cannot see
-resilience risk — which would also have produced the next three incidents.
+resilience risk - which would also have produced the next three incidents.
 
 ## Limits
 

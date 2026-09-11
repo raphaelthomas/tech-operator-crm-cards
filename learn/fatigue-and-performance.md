@@ -3,7 +3,7 @@
 ## What it is
 
 The evidence behind every time limit in these cards. Fatigue is a measurable decline in
-cognitive performance on a predictable schedule — and it takes your judgement before it
+cognitive performance on a predictable schedule - and it takes your judgement before it
 takes your sense of having good judgement. That is why the thresholds are clock-based:
 self-assessment is the first thing to go.
 
@@ -12,7 +12,7 @@ self-assessment is the first thing to go.
 **Hours awake.** Dawson and Reid kept subjects awake and compared their performance
 against the same subjects dosed with alcohol. After 17 hours of sustained wakefulness,
 cognitive psychomotor performance had fallen to the level produced by a blood alcohol
-concentration of 0.05%. By roughly 24 hours it matched 0.10% — above the drink-driving
+concentration of 0.05%. By roughly 24 hours it matched 0.10% - above the drink-driving
 limit in most jurisdictions.
 
 > Dawson, D. & Reid, K. (1997). *Fatigue, alcohol and performance impairment.*
@@ -34,7 +34,7 @@ next one. The effect held on both day and night shifts.
 
 **Consecutive days.** The same review found risk accumulating across successive shifts:
 about 6%, 17% and 36% higher on the second, third and fourth night shift. Day shifts
-showed the same shape, smaller — about 2%, 7% and 17%.
+showed the same shape, smaller - about 2%, 7% and 17%.
 
 **What it costs.** Landrigan and colleagues randomised intensive-care interns between a
 traditional rota with shifts of 24 hours or more and one capped at 16. On the traditional
@@ -47,7 +47,7 @@ errors.
 
 ## How to use it
 
-- **Break every two hours.** Not when you feel like it — the risk climb is steady and you
+- **Break every two hours.** Not when you feel like it - the risk climb is steady and you
   will not notice it.
 - **Hand off well before the twelfth hour.** Risk has more than doubled by then.
 - **Past 17 hours awake, stop touching production.** You are operating at the

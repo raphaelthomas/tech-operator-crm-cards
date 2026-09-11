@@ -5,7 +5,7 @@
 A six-step structure for deciding under time pressure: **F**acts · **O**ptions ·
 **R**isks & benefits · **D**ecision · **E**xecution · **C**heck.
 
-Its whole value is the break between **FOR** and **DEC** — analysis and action. Under
+Its whole value is the break between **FOR** and **DEC** - analysis and action. Under
 stress the default path runs straight from noticing a problem to executing the first
 plausible fix. FOR-DEC forces a shared picture and at least two options to exist before
 anyone commits.
@@ -37,7 +37,7 @@ Soll and colleagues' review is also the source of its main caveat: the model is 
 | **R**isks | What does each cost? | Including the risk of *not* acting |
 | **D**ecision | What are we doing? | One option, named owner |
 | **E**xecution | Do it | Delegated explicitly, not assumed |
-| **C**heck | Did it work? | Against the facts from step one — or start again |
+| **C**heck | Did it work? | Against the facts from step one - or start again |
 
 ## Worked example
 
@@ -48,7 +48,7 @@ Soll and colleagues' review is also the source of its main caveat: the model is 
 | **R**isks | "One loses transactions. Two degrades reporting. Three costs five minutes of downtime. Nothing means we stay down." |
 | **D**ecision | "Two. Rate-limit analytics. I own it." |
 | **E**xecution | "Sam, apply the limit now and confirm in channel." |
-| **C**heck | "CPU 45%, latency 50ms. Holding. Root cause still unknown — that's the next cycle." |
+| **C**heck | "CPU 45%, latency 50ms. Holding. Root cause still unknown - that's the next cycle." |
 
 ## Limits
 

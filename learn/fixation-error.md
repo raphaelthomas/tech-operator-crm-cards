@@ -3,11 +3,11 @@
 ## What it is
 
 The failure to revise your assessment of a situation as new evidence arrives. Evidence
-that contradicts your current picture is not weighed and rejected — it is missed,
+that contradicts your current picture is not weighed and rejected - it is missed,
 discounted, or explained away as not really contradictory.
 
 The trap is that the original assessment was usually *reasonable when you formed it*. This
-is a failure of updating, not of care — and it strengthens under exactly the stress that
+is a failure of updating, not of care - and it strengthens under exactly the stress that
 makes updating matter.
 
 Three recognised shapes:
@@ -38,7 +38,7 @@ defensible reading of the situation that later evidence should have overturned.
 
 ## How to break it
 
-You cannot detect your own fixation by introspection — that is what makes it fixation.
+You cannot detect your own fixation by introspection - that is what makes it fixation.
 Every countermeasure is therefore external or pre-committed:
 
 - **Decide the time-box before you start.** A limit set while calm is the only one that
@@ -54,7 +54,7 @@ Every countermeasure is therefore external or pre-committed:
 Latency spikes after a deploy. You conclude it is the deploy and start bisecting commits.
 Thirty minutes in, a database alert fires; you read it as a downstream symptom of the slow
 service and keep bisecting. It was a failing disk on the primary, and it had been alerting
-since before the deploy. Nothing about the bisect was incompetent — the fault was that the
+since before the deploy. Nothing about the bisect was incompetent - the fault was that the
 disk alert was filed as confirmation instead of contradiction.
 
 ## Limits

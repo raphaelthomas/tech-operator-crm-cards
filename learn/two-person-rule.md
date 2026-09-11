@@ -20,7 +20,7 @@ The related **no-lone zone** is the physical form: an area a single unaccompanie
 may not enter, where the two people must maintain visual contact with each other and with
 the critical component.
 
-Finance and software know the same idea as the **four-eyes principle** — dual
+Finance and software know the same idea as the **four-eyes principle** - dual
 authorisation for payments, code review before merge, two approvals on a production change.
 
 The design intent is worth being precise about: it is not that two people are better at
@@ -34,7 +34,7 @@ independent validation exist rather than a second signature.
   touching money or customer data. Deciding case by case means deciding under pressure.
 - **The second person forms their own picture.** If they are reading your terminal over
   your shoulder, you have one picture and two people.
-- **They must be able to say no** without needing to win the argument — see
+- **They must be able to say no** without needing to win the argument - see
   [PACE](./pace-and-two-challenge.md).
 - **Pair it with [pointing and calling](./pointing-and-calling.md).** The operator reads
   the command aloud; the reviewer confirms against their own understanding of the intent.

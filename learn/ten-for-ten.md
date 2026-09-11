@@ -6,7 +6,7 @@ When a situation is critical and you feel stuck, spend **ten seconds** to gain t
 **ten minutes**: stop, call a team time-out, and work through five questions aloud before
 acting further.
 
-It is not a timer. It is triggered by a state — things are bad, and the current approach
+It is not a timer. It is triggered by a state - things are bad, and the current approach
 is not working.
 
 ## Origin & evidence
@@ -25,7 +25,7 @@ too fast**: "whilst some teams perform well, others work so quickly that they ma
 and so compromise safety." A NASA study of safety reports found the link between perceived
 time pressure and error strong enough to be named *the hurry-up syndrome*.
 
-Their framing of the trained response is the memorable part — a consultant surgeon's
+Their framing of the trained response is the memorable part - a consultant surgeon's
 *"Don't just do something, stand there"*, and the airline instruction *"when you get an
 abnormal alarm, sit on your hands first."*
 
@@ -38,7 +38,7 @@ The authors' five questions, in order:
 | **Problem?** | What is the biggest problem right now? What is the most dangerous aspect? |
 | **Opinions?** | Clarify with all available team members. |
 | **Facts?** | Gather the available information. |
-| **Plan?** | Using team input, make a plan — including the *sequence* of actions. |
+| **Plan?** | Using team input, make a plan - including the *sequence* of actions. |
 | **Distribute?** | Assign tasks and responsibilities, with thresholds. |
 
 Two details are easy to lose. **Opinions comes before facts**, so people speak before the
@@ -56,7 +56,7 @@ Ten seconds of silence bought a shared picture nobody had.
 
 ## Limits
 
-It costs time you feel you do not have — that is the point, and it is also why it is hard
+It costs time you feel you do not have - that is the point, and it is also why it is hard
 to do without practice. It is wrong for genuinely time-critical actions where a
 pre-committed trigger has already fired: stop and think is the right default, not a
 universal rule.

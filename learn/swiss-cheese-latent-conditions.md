@@ -6,7 +6,7 @@ Defences against failure are layered, and every layer has holes. An accident hap
 holes in successive layers line up and let a hazard through.
 
 The holes come from two sources. **Active failures** are the unsafe acts at the sharp end
-— the wrong command, the missed alarm. **Latent conditions** are decisions taken long
+- the wrong command, the missed alarm. **Latent conditions** are decisions taken long
 before, often far away, that sat dormant in the system: a staffing choice, a deferred
 upgrade, a default that was convenient at the time.
 
@@ -22,7 +22,7 @@ the last person to touch the system.
 
 Reason's central argument is that active failures are hard to foresee and largely
 unpreventable by exhortation, while latent conditions can be **identified and repaired
-before an accident** — which makes them the better target. His distinction between the
+before an accident** - which makes them the better target. His distinction between the
 *person approach* and the *system approach* is the intellectual ancestor of the blameless
 postmortem.
 
@@ -33,8 +33,8 @@ day, which is why the same system survives on Tuesday and fails on Friday.
 
 In a review, do not stop when you have found the act that broke it:
 
-- **List every layer that should have caught this** — tests, review, monitoring, alerting,
-  canary, rate limits, the runbook, the reviewer — and for each, why it did not.
+- **List every layer that should have caught this** - tests, review, monitoring, alerting,
+  canary, rate limits, the runbook, the reviewer - and for each, why it did not.
 - **Ask when each hole was made.** The latent condition usually predates the incident by
   months.
 - **Fix holes, not people.** The active failure is rarely repeatable; the latent condition

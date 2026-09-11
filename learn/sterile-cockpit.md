@@ -30,8 +30,8 @@ The regulation itself is unusually direct:
 > 14 CFR § 121.542, Flight Crewmember Duties.
 > https://www.law.cornell.edu/cfr/text/14/121.542
 
-Two details transfer well. First, the rule names *specific banned activities* — eating,
-non-essential conversation, reading unrelated material — rather than asking for good
+Two details transfer well. First, the rule names *specific banned activities* - eating,
+non-essential conversation, reading unrelated material - rather than asking for good
 judgement. Second, it puts the burden on the person in charge to **permit** nothing, not
 merely to abstain personally.
 
@@ -51,7 +51,7 @@ merely to abstain personally.
 
 Mid-migration, someone posts a question in the incident channel about next week's release
 schedule. The operator answers it, loses their place in the runbook, and re-runs a step.
-Nothing about the question was unreasonable — it simply arrived inside a window that had
+Nothing about the question was unreasonable - it simply arrived inside a window that had
 never been declared closed.
 
 ## Limits

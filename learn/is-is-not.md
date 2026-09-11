@@ -3,7 +3,7 @@
 ## What it is
 
 Before hunting a cause, draw the boundary of the problem. For each dimension, record what
-the problem **is** — and, just as deliberately, what it **is not** but plausibly could
+the problem **is** - and, just as deliberately, what it **is not** but plausibly could
 have been.
 
 The second column is the technique. "Checkout is failing" narrows nothing. "Checkout is
@@ -20,8 +20,8 @@ characteristic managerial failure of jumping from symptom to presumed cause.
 > Kepner, C. H. & Tregoe, B. B. (1965). *The Rational Manager: A Systematic Approach to
 > Problem Solving and Decision-Making.* New York: McGraw-Hill.
 
-Their chart asks what, where, when and to what extent — each against a contrasting case
-where the problem is absent — and then looks for what is **distinctive** about the problem
+Their chart asks what, where, when and to what extent - each against a contrasting case
+where the problem is absent - and then looks for what is **distinctive** about the problem
 case. A cause that cannot explain both the is and the is-not is not the cause.
 
 ## How to run it
@@ -37,7 +37,7 @@ Then: what distinguishes the left column from the right? Test candidate causes a
 *both* columns, and discard any that would also have broken the right-hand side.
 
 Fill it in from evidence, not memory, and leave cells blank when you genuinely do not
-know — a guessed is-not is worse than an empty one, because it eliminates the truth.
+know - a guessed is-not is worse than an empty one, because it eliminates the truth.
 
 ## Worked example
 
@@ -46,7 +46,7 @@ fine. Is: only EU customers. Is-not: US customers on the same build. Is: began 1
 Is-not: nothing deployed since 09:00.
 
 What is distinctive about EU checkout at 14:10 that does not apply to EU signup or US
-checkout? Not the release — that is eliminated by the timing. The answer was a payment
+checkout? Not the release - that is eliminated by the timing. The answer was a payment
 provider's regional certificate expiring, which only checkout calls. No logs were read to
 get this far.
 
@@ -54,5 +54,5 @@ get this far.
 
 It needs enough observability to answer the questions honestly; on a poorly instrumented
 system the is-not column fills with assumption and misleads confidently. It is also built
-for a deviation with a clear before-and-after — for slow degradations, or systems that were
+for a deviation with a clear before-and-after - for slow degradations, or systems that were
 never right, there is no contrasting case to compare against.

@@ -13,7 +13,7 @@ A ladder for raising a concern to someone senior, escalating only as far as you 
 
 The **Two-Challenge Rule** is the companion: if you have voiced a concern twice and it has
 not been acknowledged, you are obliged to escalate to someone else. The trigger is
-*unacknowledged*, not *disagreed with* — a reasoned "I hear you, do it anyway" is an
+*unacknowledged*, not *disagreed with* - a reasoned "I hear you, do it anyway" is an
 answer; silence is not.
 
 ## Origin & evidence
@@ -45,15 +45,15 @@ senior, and being heard.
 - **Say the word "stop"** at the challenge step. Ambiguity is what the ladder exists to
   remove.
 - **If you are senior, make it cheap.** Say out loud at the start of a change that you
-  expect to be challenged, and thank people who do it — including the times they were
+  expect to be challenged, and thank people who do it - including the times they were
   wrong.
 
 ## Worked example
 
 > **Probe:** "What environment is that kubeconfig pointing at?"
-> — no answer, typing continues.
+> - no answer, typing continues.
 > **Alert:** "I think that context is prod. Deleting that namespace takes checkout down."
-> — "It's fine."
+> - "It's fine."
 > **Challenge:** "Stop. Do not press enter. Print the context and read it out."
 
 Two unacknowledged concerns would have meant paging the on-call lead, whatever the

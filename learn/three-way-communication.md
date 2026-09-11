@@ -5,7 +5,7 @@
 A closed loop for any instruction that matters:
 
 1. **Sender** states the message, clearly and specifically.
-2. **Receiver** repeats it back — names and labels word-for-word, the rest in their own
+2. **Receiver** repeats it back - names and labels word-for-word, the rest in their own
    words.
 3. **Sender** confirms it was heard correctly, or corrects it.
 
@@ -31,7 +31,7 @@ that is what exposes whether the receiver actually understood, rather than merel
 
 - **Use full names.** "Restart `api-gateway-prod-3`", never "restart it".
 - **Echo identifiers exactly.** Hostnames, ticket numbers, version tags.
-- **Confirm out loud.** "Correct" — or "negative, it is prod-3, not prod-2."
+- **Confirm out loud.** "Correct" - or "negative, it is prod-3, not prod-2."
 - **Use it on the way up too.** Status reports back to a commander deserve the same loop.
 
 ## Worked example
@@ -40,8 +40,8 @@ that is what exposes whether the receiver actually understood, rather than merel
 > **Sam:** "Draining `eu-west-1b` only, leaving `1a` and `1c` up."
 > **IC:** "Correct. Go."
 
-Twelve extra words. The failure it prevents — draining the wrong availability zone, or all
-three — is the kind that turns a degradation into an outage.
+Twelve extra words. The failure it prevents - draining the wrong availability zone, or all
+three - is the kind that turns a degradation into an outage.
 
 ## Limits
 

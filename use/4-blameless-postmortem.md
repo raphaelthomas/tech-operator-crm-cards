@@ -1,6 +1,6 @@
 # 🔍 Blameless Postmortem
 
-Run this after an incident, **or after any change worth learning from** — including the ones that went fine.
+Run this after an incident, **or after any change worth learning from** - including the ones that went fine.
 
 ## Setup
 

@@ -17,8 +17,8 @@ They repeat the brief back. You confirm.
 
 Three exchanges, out loud, in this order:
 
-> — **"You have control."**
-> — **"I have control."**
-> — **"You have control."**
+> - **"You have control."**
+> - **"I have control."**
+> - **"You have control."**
 
 **It is not handed over until all three have been said.**

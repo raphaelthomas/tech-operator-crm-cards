@@ -2,8 +2,8 @@
 
 ## What it is
 
-Before acting, point at the thing and say what it is out loud. *"Signal — green."*
-*"Target host — prod-db-3."*
+Before acting, point at the thing and say what it is out loud. *"Signal - green."*
+*"Target host - prod-db-3."*
 
 The gesture and the voice are not theatre. Confirming silently is a single mental act and
 easy to perform on autopilot; pointing and speaking forces eye, hand and voice into
@@ -30,7 +30,7 @@ reporting rather than the research itself, so it is not relied on here.
 
 - **Read the target aloud before executing**, not the intent. "Deleting namespace
   `checkout` on cluster `prod-eu`", not "cleaning up the old one".
-- **Point at the screen.** Alone at a laptop this feels ridiculous. Do it anyway — the
+- **Point at the screen.** Alone at a laptop this feels ridiculous. Do it anyway - the
   physical act is the mechanism, not the ceremony.
 - **Say the identifier that would be catastrophic if wrong**: environment, host, table,
   branch.
@@ -42,11 +42,11 @@ reporting rather than the research itself, so it is not relied on here.
 `kubectl` context reads `prod-eu` while the plan, the ticket and the last twenty minutes of
 conversation all concerned staging. Said silently, the mind supplies "staging" because
 that is the context it has been holding. Said aloud, the word "prod" collides audibly with
-the plan — and with anyone else in the room.
+the plan - and with anyone else in the room.
 
 ## Limits
 
-It defends against slips — doing the wrong thing while intending the right thing. It does
+It defends against slips - doing the wrong thing while intending the right thing. It does
 nothing about mistakes, where the plan itself is wrong: calling out "prod" confidently is
 no help when prod was always the wrong target. Pair it with a second person
 ([Two-Person Rule](./two-person-rule.md)), whose value is an independent picture rather

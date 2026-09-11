@@ -2,8 +2,8 @@
 
 ## What it is
 
-A four-part structure for handing over or escalating — **S**ituation · **B**ackground ·
-**A**ssessment · **R**ecommendation — plus a **C**heck-back to confirm it landed.
+A four-part structure for handing over or escalating - **S**ituation · **B**ackground ·
+**A**ssessment · **R**ecommendation - plus a **C**heck-back to confirm it landed.
 
 It solves a specific failure: the person with the information tells a story, and the
 person who needs it wants a conclusion and an ask. SBAR puts the headline first and forces
@@ -25,8 +25,8 @@ repeats the message and the sender confirms it. It is the same closed loop as nu
 operations' three-way communication.
 
 When the handover transfers *responsibility* and not just information, aviation adds a
-positive exchange of control — "You have control" / "I have control" / "You have control"
-— so that the moment of transfer is explicit and witnessed. Accidents have followed from
+positive exchange of control - "You have control" / "I have control" / "You have control"
+- so that the moment of transfer is explicit and witnessed. Accidents have followed from
 both pilots believing the other was flying, which is the same failure as two engineers each
 assuming the other owns the incident.
 
@@ -40,7 +40,7 @@ conclusions to seniors, which loses the information most worth having.
 | :--- | :--- |
 | **S**ituation | What is happening now, and who it affects |
 | **B**ackground | What changed, what you already tried |
-| **A**ssessment | What you think it is, and how bad — your judgement, stated |
+| **A**ssessment | What you think it is, and how bad - your judgement, stated |
 | **R**ecommendation | Exactly what you need from them |
 | **C**heck-back | They repeat it; you confirm |
 
@@ -48,19 +48,19 @@ conclusions to seniors, which loses the information most worth having.
 
 Handing an incident to a fresh commander:
 
-1. **Situation** — "P1. The European API is at a 100% failure rate."
-2. **Background** — "Started 45 minutes ago with the v3.1 EU deploy. Rollback is stuck;
+1. **Situation** - "P1. The European API is at a 100% failure rate."
+2. **Background** - "Started 45 minutes ago with the v3.1 EU deploy. Rollback is stuck;
    the old version won't clear."
-3. **Assessment** — "I think this is the deployment system, not the code. We breach the
+3. **Assessment** - "I think this is the deployment system, not the code. We breach the
    SLA in fifteen minutes."
-4. **Recommendation** — "Take command, and get the on-call platform engineer for manual
+4. **Recommendation** - "Take command, and get the on-call platform engineer for manual
    cluster intervention."
-5. **Check-back** — *"Taking command, calling platform for manual intervention. Correct?"*
-   — "Correct."
-6. **Transfer** — "You have control." — "I have control." — "You have control."
+5. **Check-back** - *"Taking command, calling platform for manual intervention. Correct?"*
+   - "Correct."
+6. **Transfer** - "You have control." - "I have control." - "You have control."
 
 ## Limits
 
 SBAR is built for one sender, one receiver, one ask. It does not structure a group
-discussion, and it is a poor fit when the problem is genuinely not yet understood — an
+discussion, and it is a poor fit when the problem is genuinely not yet understood - an
 honest "I don't know what this is" is better than an assessment invented to fill the slot.

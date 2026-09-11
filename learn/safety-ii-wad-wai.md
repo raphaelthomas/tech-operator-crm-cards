@@ -9,7 +9,7 @@ broken part, add a barrier. Almost everything else in these cards is Safety-I: c
 two-person rules, go/no-go gates.
 
 **Safety-II** treats safety as the *presence of the capacity to succeed under varying
-conditions*. Things go right and wrong for the same reason — people continuously adapting
+conditions*. Things go right and wrong for the same reason - people continuously adapting
 to a system that never quite matches its description. So you study normal work, not only
 the rare failures.
 
@@ -40,8 +40,8 @@ Three of its findings bear directly on how you run a review:
 
 - **Expertise is model-updating, not knowledge.** As one participant put it, *"our skill
   is in being able to update our model efficiently and appropriately."*
-- **"Blameless" usually means "sanctionless."** The report separates blame — attributing
-  an outcome to a source — from sanction, the penalty. Organisations often promise the
+- **"Blameless" usually means "sanctionless."** The report separates blame - attributing
+  an outcome to a source - from sanction, the penalty. Organisations often promise the
   first while only delivering the second, and people can tell.
 - **Write-only memory.** Incident libraries get written and never read. A postmortem
   nobody revisits has produced documentation, not learning.
@@ -52,7 +52,7 @@ In a postmortem, add the questions Safety-I does not ask:
 
 - What did the operator actually do that was not in the runbook?
 - What part of the procedure did someone skip, change or invent to make progress?
-- Why did that seem right *at the time* — not whether it looks right now?
+- Why did that seem right *at the time* - not whether it looks right now?
 - Look at recent runs that **succeeded**. The adaptations holding the system together are
   visible there, and nowhere else.
 
@@ -67,6 +67,6 @@ the gate would have removed the only thing making deploys work.
 ## Limits
 
 Safety-II is a perspective, not a drilled procedure like SBAR, and the Safety-I/II split is
-contested — critics argue it caricatures traditional practice. Take the prompts above,
+contested - critics argue it caricatures traditional practice. Take the prompts above,
 which stand on their own, and treat the theory as a lens rather than a method. It does not
 replace barriers either: you still want the rollback tested.

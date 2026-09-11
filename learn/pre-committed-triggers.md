@@ -18,14 +18,14 @@ length, surface and temperature, then briefed before the aircraft moves.
 The FAA and industry Takeoff Safety Training Aid analysed 74 rejected-takeoff accidents
 and incidents between 1959 and 1990:
 
-- **58% were initiated at speeds in excess of V1** — the stop was begun after the point
+- **58% were initiated at speeds in excess of V1** - the stop was begun after the point
   where stopping was still possible.
 - **Approximately 80% were potentially avoidable** through appropriate operational
   practice.
 
 Its first lesson is the one that transfers: *"the crew must always be prepared to make the
 Go/No Go decision prior to the airplane reaching V1 speed."* The document is blunt about
-why in-the-moment judgement fails here — the decision must be made "using rapidly
+why in-the-moment judgement fails here - the decision must be made "using rapidly
 changing, often incomplete information in a dynamic environment in which the time
 available decreases as the criticality of the decision increases."
 
@@ -40,7 +40,7 @@ while nothing is happening.
 
 ## How to use it
 
-- **Compute the trigger for this change**, not for changes in general — error rate,
+- **Compute the trigger for this change**, not for changes in general - error rate,
   latency, queue depth, whatever actually indicates this one failing.
 - **State it as a number, aloud, in the brief**, and have someone read it back.
 - **Pre-commit the ambiguous case too.** "If we cannot tell whether it is the deploy or
@@ -59,7 +59,7 @@ worse information than it was made with.
 
 ## Limits
 
-A pre-committed trigger is only as good as the signal behind it — a threshold on a metric
+A pre-committed trigger is only as good as the signal behind it - a threshold on a metric
 that does not actually track user harm will fire late, or never. Triggers also need review
 after the fact: if you routinely blow through one, it was wrong, and the fix is a better
 number next time rather than a habit of ignoring it.

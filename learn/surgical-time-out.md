@@ -22,7 +22,7 @@ cut complications from **11.0% to 7.0%** and in-hospital death from **1.5% to 0.
 > Mortality in a Global Population.* New England Journal of Medicine 360:491–499.
 > https://doi.org/10.1056/NEJMsa0810119
 
-Two design details do the work. The checklist is **spoken, not ticked** — the team hears
+Two design details do the work. The checklist is **spoken, not ticked** - the team hears
 each other answer. And it includes an introduction round in which everyone states name and
 role, which exists so that a junior person has already spoken once before they need to
 speak up about something that matters.
@@ -32,9 +32,9 @@ speak up about something that matters.
 Immediately before the irreversible step, everyone stops and confirms aloud:
 
 - **Who** is running it, who is watching, who can call a stop.
-- **What** exactly is changing, and on which system — read the target out.
+- **What** exactly is changing, and on which system - read the target out.
 - **Rollback**, and how long it takes.
-- **The trigger** that means abort — see [Pre-Committed
+- **The trigger** that means abort - see [Pre-Committed
   Triggers](./pre-committed-triggers.md).
 - **Anything anyone is uneasy about.** Ask explicitly, by name, and wait.
 
@@ -52,5 +52,5 @@ loud to someone else.
 ## Limits
 
 Checklists tend to become routine over time. A useful warning sign is a time-out that
-nothing ever fails — if no change has been stopped by one in a year, it is likely being
+nothing ever fails - if no change has been stopped by one in a year, it is likely being
 recited rather than run. Keep it short, and make stopping genuinely acceptable.
