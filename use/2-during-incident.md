@@ -22,7 +22,7 @@ Two options minimum, including doing nothing. Check it, or it did not happen.
 | **Fixated** | Stand up. Sixty seconds. Then come back. |
 | **Past your time-box** | Escalate — do not extend. Escalation is not a sin. |
 | **Break** | Every couple of hours. |
-| **Hand off** | By 8–10 hours on it. Past 17 hours awake you are impaired like 0.05% blood alcohol. |
+| **Hand off** | Before hour twelve — risk more than doubles by then. Past 17 hours awake you are impaired like 0.05% blood alcohol. |
 | **Customer waiting** | Give a next-update time, then hit it. |
 
 ### Solo

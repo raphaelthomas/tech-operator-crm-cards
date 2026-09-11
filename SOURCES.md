@@ -37,9 +37,9 @@ is believed correct but has not yet been confirmed — see `TODO.md`.
 | Is / Is-Not | Kepner-Tregoe, *The Rational Manager* (1965) | asserted |
 | Fixation error | De Keyser & Woods (1990) | verified |
 | 17h awake ≈ 0.05% BAC | Dawson & Reid, *Nature* 388:235 (1997) | verified |
-| Risk rises past hour 9 on shift | Folkard & Tucker (2003) | verified |
-| Risk doubles across a continuous stretch | Tucker, Folkard & Macdonald, *Lancet* (2003) | verified |
-| Extended shifts and error rates | Landrigan et al., *NEJM* 351:1838 (2004) | verified |
+| Risk more than doubles by the twelfth hour on shift | Folkard & Tucker, *Occup Med* 53(2):95–101 (2003) | verified |
+| Risk roughly doubles between rest breaks | Tucker, Folkard & Macdonald, *Lancet* 361(9358):680 (2003) | verified |
+| Extended shifts raise error rates | Landrigan et al., *NEJM* 351:1838–1848 (2004) | verified |
 | "Escalation is not a sin" | Google SRE, *Managing Incidents* | verified |
 
 ## Handover (3-handover-brief)
