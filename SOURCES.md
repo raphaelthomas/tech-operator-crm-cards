@@ -6,6 +6,9 @@ this repository, and nothing is a local house rule.
 **Verified** means the claim has been checked against a publication. **Asserted** means it
 is believed correct but has not yet been confirmed — see `TODO.md`.
 
+Where a `learn/` document exists, it carries the full citation; this file is an index and
+will be retired once every technique has one.
+
 ## Always (0-start-here)
 
 | Technique | Origin | Status |
@@ -24,7 +27,7 @@ is believed correct but has not yet been confirmed — see `TODO.md`.
 | Time-Out | WHO Surgical Safety Checklist (2008) | asserted |
 | Pre-mortem | Gary Klein, *Harvard Business Review* (2007) | asserted |
 | Go/No-Go poll | NASA flight readiness review | asserted |
-| Pre-committed abort trigger | Aviation V1 / rejected-takeoff briefing | verified |
+| Pre-committed abort trigger | FAA Takeoff Safety Training Aid, AC 120-62 (1993) | verified |
 | Two-person rule | Nuclear weapons handling; financial four-eyes principle | asserted |
 | Point and call (*shisa kanko*) | Japanese railways | asserted |
 
@@ -33,9 +36,9 @@ is believed correct but has not yet been confirmed — see `TODO.md`.
 | Technique | Origin | Status |
 | :--- | :--- | :--- |
 | 10 for 10 | Rall & Gaba, anaesthesia crisis resource management | asserted |
-| FOR-DEC | DLR / Hörmann (1994) | asserted |
+| FOR-DEC | Hörmann (1995); Soll et al., *Aviat Psychol Appl Hum Factors* 6(2):101–112 (2016) | verified |
 | Is / Is-Not | Kepner-Tregoe, *The Rational Manager* (1965) | asserted |
-| Fixation error | De Keyser & Woods (1990) | verified |
+| Fixation error | De Keyser & Woods (1990), *System Reliability Assessment*, pp. 231–251 | verified |
 | 17h awake ≈ 0.05% BAC | Dawson & Reid, *Nature* 388:235 (1997) | verified |
 | Risk more than doubles by the twelfth hour on shift | Folkard & Tucker, *Occup Med* 53(2):95–101 (2003) | verified |
 | Risk roughly doubles between rest breaks | Tucker, Folkard & Macdonald, *Lancet* 361(9358):680 (2003) | verified |
@@ -46,7 +49,7 @@ is believed correct but has not yet been confirmed — see `TODO.md`.
 
 | Technique | Origin | Status |
 | :--- | :--- | :--- |
-| SBAR | Kaiser Permanente, from US Navy submarine service | asserted |
+| SBAR | US Navy submarine service; Leonard, Graham & Bonacum, *Qual Saf Health Care* 13:i85–i90 (2004) | verified |
 | Check-back | AHRQ TeamSTEPPS | asserted |
 | Explicit command acknowledgement | Google SRE, *Managing Incidents* | verified |
 
@@ -55,11 +58,11 @@ is believed correct but has not yet been confirmed — see `TODO.md`.
 | Technique | Origin | Status |
 | :--- | :--- | :--- |
 | Blameless postmortem | Allspaw / Etsy; Google SRE | asserted |
-| 5 Whys | Toyota (Toyoda / Ohno) | asserted |
+| 5 Whys | Sakichi Toyoda; Ohno, *Toyota Production System* (1988) | verified |
 | Latent conditions, defence layers | James Reason (1990) | asserted |
 | SHELL model | ICAO human factors framework | asserted |
 | SMART | George Doran (1981) | asserted |
-| Work-as-Done vs Work-as-Imagined | Hollnagel; SNAFUcatchers STELLA Report (2017) | asserted |
+| Work-as-Done vs Work-as-Imagined | Hollnagel (2014); SNAFUcatchers STELLA Report (2017) | verified |
 
 ## Deliberately absent
 

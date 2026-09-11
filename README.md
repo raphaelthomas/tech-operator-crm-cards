@@ -22,9 +22,13 @@ out so you never have to look anything up mid-incident.
 
 Theory, origin, worked example, and the limits of each technique.
 
-- [5 Whys](./learn/5-whys.md)
-- [FOR-DEC](./learn/for-dec-decision-protocol.md)
-- [SBAR(C)](./learn/sbarc.md)
+- [5 Whys](./learn/5-whys.md) — asking why until the answer is systemic
+- [Fatigue and Performance](./learn/fatigue-and-performance.md) — the evidence behind every time limit here
+- [Fixation Error](./learn/fixation-error.md) — why you cannot notice your own tunnel vision
+- [FOR-DEC](./learn/for-dec-decision-protocol.md) — deciding under time pressure
+- [Pre-Committed Triggers](./learn/pre-committed-triggers.md) — why no card prints a rollback number
+- [SBAR(C)](./learn/sbarc.md) — handing over and escalating
+- [Safety-II and Work-as-Done](./learn/safety-ii-wad-wai.md) — studying what goes right
 
 More are planned — see [TODO.md](./TODO.md).
 
