@@ -12,7 +12,7 @@ technique's `learn/` document names where it comes from.
 Organised by point in time. Each card is a memory aid, not a lesson: mnemonics are spelled
 out so you never have to look anything up mid-incident.
 
-1. [Start Here](./use/0-start-here.md) — which card, and what is always true
+1. [Always](./use/0-always.md) — what holds regardless of which card you are on
 1. [Before a Change](./use/1-before-change.md) — time-out, pre-mortem, go/no-go
 1. [During an Incident](./use/2-during-incident.md) — reset, scope, decide, stop rules
 1. [Handover Brief](./use/3-handover-brief.md) — SBAR and check-back

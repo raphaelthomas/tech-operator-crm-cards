@@ -1,13 +1,4 @@
-# 🧭 Start Here
-
-| When | Card |
-| :--- | :--- |
-| Before a risky or irreversible change | [Before a Change](./1-before-change.md) |
-| Incident in progress | [During an Incident](./2-during-incident.md) |
-| Handing over control | [Handover Brief](./3-handover-brief.md) |
-| Afterwards | [Blameless Postmortem](./4-blameless-postmortem.md) |
-
-## Always
+# ⚓ Always
 
 | | |
 | :--- | :--- |
