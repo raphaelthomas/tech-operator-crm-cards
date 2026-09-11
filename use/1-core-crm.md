@@ -7,7 +7,7 @@ This pocket card incorporates core CRM principles and selected IT-focused tools 
 | 🎯 **CRM CORE** | **ACTIONABLE PRINCIPLES** |
 | :--- | :--- |
 | **1. Situational Awareness (SA)** | ➡️ **Know Your Status:** What is the current system state, the impact, and the available resources? **Call out *any* deviation**. |
-| | 🔄 **10 for 10 Check:** Use a 10-second pause every 10 minutes to reset SA: **Main Problem? Facts? Team? Plan\! Distribute\! Queries?\!** |
+| | 🔄 **10 for 10 Check:** Use a 10-second pause every 10 minutes to reset SA: **Main Problem? Facts? Team? Plan! Distribute! Queries?!** |
 | **2. Communication** | 🗣️ **Clear & Direct:** Speak precisely. **Use full names** for services/servers. Avoid ambiguity. |
 | | 🤝 **Close the Loop:** Sender/Receiver confirmation: **Said → Heard → Understood → Done**. Address people by name/function. |
 | **3. Assertiveness & Teamwork** | 📢 **Speak Up:** If you see an error or have a concern, **state it clearly and calmly**. Don't assume the lead sees everything. |
@@ -21,7 +21,7 @@ This pocket card incorporates core CRM principles and selected IT-focused tools 
 | **I**llness | Do I have a cold, headache, or other ailment affecting my focus? |
 | **M**edication | Am I taking anything that impairs my judgment or causes drowsiness? |
 | **S**tress | Am I worried, angry, or distracted? |
-| **A**lcohol / **F**atigue | Am I rested and clear-headed (the **8-Hour Rule** applies\!)? |
+| **A**lcohol / **F**atigue | Am I rested and clear-headed (the **8-Hour Rule** applies!)? |
 | **E**motion | Am I in an emotionally stable state (overly frustrated or confident)? |
 
 **Self-Care Action:** If the answer is "No" to any check, **demand a break or a handoff immediately.**
