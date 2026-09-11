@@ -53,6 +53,9 @@ add origin, evidence and failure modes rather than anything operationally new.
 
 ## Open
 
-- [ ] Citation depth in `learn/`: full citations, or link plus a sentence?
-- [ ] Verify the provenance claims in `SOURCES.md` that are still asserted rather than
-      checked — only the fatigue sources have been confirmed against publications.
+- [ ] **Delete `SOURCES.md` once every document above exists.** It is scaffolding: each
+      `learn/` document carries its own provenance under *Origin & evidence*, so the
+      central index becomes duplication the moment the backfill is complete. Remember to
+      drop its link from `README.md` at the same time.
+- [ ] Verify the provenance claims still marked *asserted* in `SOURCES.md` — only the
+      fatigue and Google SRE sources have been confirmed against publications.
