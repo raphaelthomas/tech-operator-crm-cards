@@ -16,17 +16,15 @@ locomotive crews calling signal status to each other; the pointing was added dec
 It is now standard across Japanese rail and has been adopted by transit systems including
 New York and Toronto.
 
-The widely cited figure is a **1994 Railway Technical Research Institute study finding
-that pointing and calling reduced mistakes on a simple task by almost 85%.**
-
 > Gordenker, A. (2008). *JR gestures.* The Japan Times, 21 October.
 > https://www.japantimes.co.jp/news/2008/10/21/reference/jr-gestures/
 
-**A provenance caveat:** that 85% figure reaches English-language sources through this
-newspaper report rather than through the study itself, which is not readily available in
-English. The number is repeated widely and consistently, but it has not been verified here
-against the primary research. Treat the technique as well-established practice and the
-specific figure as reported rather than confirmed.
+The evidence here is adoption rather than a trial: a century of continuous use across one
+of the world's busiest and safest rail networks, retained through complete generational
+turnover of staff and equipment, and independently picked up by transit operators abroad.
+A frequently quoted figure of an 85% error reduction traces to a 1994 Railway Technical
+Research Institute study, but it reaches English-language sources through secondary
+reporting rather than the research itself, so it is not relied on here.
 
 ## How to use it
 
@@ -53,3 +51,7 @@ nothing about mistakes, where the plan itself is wrong: calling out "prod" confi
 no help when prod was always the wrong target. Pair it with a second person
 ([Two-Person Rule](./two-person-rule.md)), whose value is an independent picture rather
 than a second pair of eyes on yours.
+
+Quantified evidence in English is also thin. The practice is unusually well attested by
+adoption, but if you want a controlled trial before committing to something, this is not
+the technique that will give you one.
