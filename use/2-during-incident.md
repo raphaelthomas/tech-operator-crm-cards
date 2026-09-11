@@ -2,8 +2,9 @@
 
 ## Reset — 10 for 10
 
-Ten seconds now buys ten minutes. Aloud: **problem? · facts? · plan? · roles? · questions?**
-Run it again whenever the picture changes.
+Ten seconds now buys ten minutes. Stop and ask aloud:
+**problem? · opinions? · facts? · plan? · distribute?**
+Trigger it when you feel stuck, not on a timer.
 
 ## Scope — Is / Is-Not
 
