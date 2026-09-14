@@ -324,3 +324,10 @@ TSWLatexianTemp*
 # option is specified. Footnotes are the stored in a file with suffix Notes.bib.
 # Uncomment the next line to have this generated file ignored.
 #*Notes.bib
+
+# print artefacts: everything build.py generates, except the printable deck
+print/.fit/
+print/__pycache__/
+print/*.html
+print/*.pdf
+!print/deck.pdf

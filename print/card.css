@@ -1,0 +1,152 @@
+/* Tech Operator CRM Cards - print sheet
+   A6 (105 × 148 mm) pocket card, duplex.
+   Type: B612 / B612 Mono (Airbus, for cockpit legibility).
+
+   Text is verbatim from use/*.md.
+   Each section is a full-width band: a headed rule, not a boxed panel.
+   Steps are numbered only where the section is a sequence to work through.
+   No colour: every line on a card is mandatory, and emphasis is only ever
+   the bold the source markdown already carries. */
+
+@page { size: 105mm 148mm; margin: 0; }
+
+:root {
+  --ink:    #14171a;
+  --wash:   #eceef0;
+  --edge:   7mm;
+
+  /* density, overridable per card */
+  --size:     9.2pt;
+  --gap-row:  2.5mm;
+  --gap-band: 7.5mm;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+body {
+  font-family: "B612", system-ui, sans-serif;
+  color: var(--ink);
+  background: #fff;
+  line-height: 1.31;
+}
+
+.card {
+  font-size: var(--size);
+  width: 105mm; height: 148mm;
+  padding: var(--edge);
+  display: flex; flex-direction: column;
+  overflow: hidden;
+  break-after: page;
+}
+.card:last-of-type { break-after: auto; }
+
+/* card 04 is read at a desk afterwards, not on the keys: it can take a
+   denser setting to stay within one sheet */
+.card.dense { --size: 8.5pt; --gap-row: 1.7mm; --gap-band: 5.2mm; }
+
+/* ---- masthead ---------------------------------------------------------- */
+
+.masthead {
+  display: flex; align-items: center; gap: 2.4mm;
+  background: var(--ink); color: #fff;
+  margin: calc(var(--edge) * -1) calc(var(--edge) * -1) 0;
+  padding: 3.3mm var(--edge) 2.5mm;
+}
+.masthead .index {
+  font-family: "B612 Mono", monospace; font-weight: 700;
+  font-size: 11.5pt; line-height: 1;
+}
+.masthead .title {
+  font-size: 12.6pt; font-weight: 700; line-height: 1;
+  text-transform: uppercase; letter-spacing: 0.02em;
+  /* every masthead is one line high, so the black bar is the same on
+     every card: the longest title, Blameless Postmortem, sets the limit */
+  white-space: nowrap;
+}
+.masthead .strap {
+  margin-left: auto; text-align: right;
+  font-family: "B612 Mono", monospace; font-size: 5.4pt;
+  letter-spacing: 0.11em; text-transform: uppercase; opacity: .74;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+/* ---- section band: full width, the header is the separator ------------- */
+
+.box { margin: 0 calc(var(--edge) * -1); }
+.box + .box { margin-top: var(--gap-band); }
+
+.box > h2 {
+  display: flex; align-items: baseline; gap: 2.5mm;
+  background: var(--wash);
+  padding: 1.9mm var(--edge) 1.5mm;
+  font-size: calc(var(--size) + 1pt); font-weight: 700; line-height: 1.15;
+  letter-spacing: 0.03em; text-transform: uppercase;
+}
+.box > ol {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 5.4mm fit-content(32mm) 1fr;
+  column-gap: 1.8mm;
+  row-gap: var(--gap-row);
+  align-items: start;
+  padding: 2.2mm var(--edge) 0;
+}
+.box.nonum > ol { grid-template-columns: fit-content(32mm) 1fr; }
+.box.bare > ol { padding-top: 3.6mm; }
+
+/* ---- rows: no rules inside a band -------------------------------------- */
+
+li { display: contents; }
+
+.n { font-weight: 700; }
+
+.item { font-weight: 700; }
+.resp { hyphens: none; }
+
+li.prose .resp { grid-column: 2 / -1; }
+
+.box.nonum li.prose .resp { grid-column: 1 / -1; }
+
+/* ---- deck cover -------------------------------------------------------- */
+
+.card.cover {
+  background: var(--ink);
+  color: #fff;
+  /* extra top padding: centring the box leaves the caps riding high */
+  padding: calc(var(--edge) + 5mm) var(--edge) var(--edge);
+  align-items: center;
+  justify-content: center;
+}
+
+.cover .deck-title {
+  display: flex; flex-direction: column; align-items: center;
+  font-weight: 700; line-height: 1.02;
+  letter-spacing: -0.01em; text-transform: uppercase;
+}
+
+/* each line sized so all three print the same width */
+.cover .l1 { font-size: 80.66pt; }
+.cover .l2 { font-size: 103.35pt; }
+.cover .l3 { font-size: 93.60pt; }
+
+.cover.closing {
+  justify-content: flex-end;              /* the link sits as a footer */
+  padding-bottom: 9mm;
+}
+
+.cover.closing .repo {
+  font-family: "B612 Mono", monospace;
+  font-size: 7.2pt; letter-spacing: 0.06em;
+  text-align: center; opacity: .85;
+}
+
+/* ---- solo -------------------------------------------------------------- */
+
+.box.solo > .body { padding: 2.2mm var(--edge) 0; }
+.box.solo p + p { margin-top: 1.9mm; }
+@media screen {
+  body { background: #8b9199; padding: 14mm 0; }
+  .card { margin: 0 auto 10mm; background: #fff; box-shadow: 0 2mm 9mm rgba(0,0,0,.3); }
+}
