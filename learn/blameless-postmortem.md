@@ -25,11 +25,18 @@ Conditions](./swiss-cheese-latent-conditions.md) - and the accompanying idea of 
 culture**, which is not the absence of accountability but a consistent, known line between
 error and recklessness.
 
-The STELLA report makes a sharp observation worth carrying: organisations often say
-*blameless* when what they actually offer is **sanctionless** - no punishment, but blame
-still assigned. People can tell the difference, and it determines what they tell you. The
-same report notes incident libraries becoming *write-only memory*: documented diligently,
-never read again.
+The premise that everyone acted reasonably is not generosity, it is a correction for a
+known distortion. Cook states it as hindsight bias: knowing the outcome makes the events
+leading to it look more obvious than they could have been at the time, so the practitioner
+appears to have ignored what was in fact invisible. He calls it the primary obstacle to
+accident investigation.
+
+> Cook, R. I. (2000). *How Complex Systems Fail*, proposition 8. Cognitive Technologies
+> Laboratory, University of Chicago. https://how.complexsystems.fail/
+
+The STELLA report adds an observation worth carrying: organisations often say *blameless*
+when what they actually offer is **sanctionless** - no punishment, but blame still
+assigned. People can tell the difference, and it determines what they tell you.
 
 ## How to run it
 

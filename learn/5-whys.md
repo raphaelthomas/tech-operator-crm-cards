@@ -16,7 +16,7 @@ it, to the decision that created the condition.
 | Why 3–4 | The action | The missing safeguard that let it through |
 | Why 5+ | The safeguard | The policy, budget or priority behind its absence |
 
-Five is a rule of thumb, not a quota. Stop when the answer names something you can change.
+Five is a rule of thumb, not a quota.
 
 ## Origin & evidence
 
@@ -27,9 +27,10 @@ Developed by **Sakichi Toyoda** at Toyota in the early twentieth century and for
 > Ohno, T. (1988). *Toyota Production System: Beyond Large-Scale Production.*
 > Cambridge, MA: Productivity Press.
 
-The blameless framing is a later addition from software incident practice, where the
-technique is paired with Reason's latent conditions - see [Safety-II and
-Work-as-Done](./safety-ii-wad-wai.md) for the strongest version of that argument.
+The blameless framing is a later addition from software incident practice, which pairs the
+technique with [Reason's latent conditions](./swiss-cheese-latent-conditions.md);
+[Safety-II and Work-as-Done](./safety-ii-wad-wai.md) makes the strongest version of the
+argument.
 
 ## How to run it
 
@@ -59,5 +60,12 @@ resilience risk - which would also have produced the next three incidents.
 
 The technique attracts criticism on three points: it follows a single causal chain where
 incidents usually have several, different facilitators reach different conclusions from the
-same evidence, and the term "root cause" implies a single origin. It works better to open an
-investigation than to close one; pair it with a method that spreads sideways.
+same evidence, and the term "root cause" implies a single origin. Cook puts the last point
+hardest: because overt failure requires multiple faults, there is no isolated cause to
+find, and settling on one says more about the need to assign blame than about the failure.
+
+> Cook, R. I. (2000). *How Complex Systems Fail*, proposition 7. Cognitive Technologies
+> Laboratory, University of Chicago. https://how.complexsystems.fail/
+
+It works better to open an investigation than to close one; pair it with a method that
+spreads sideways.
