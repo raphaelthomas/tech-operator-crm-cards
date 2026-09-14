@@ -35,6 +35,7 @@ source.
 - ⚰️ [Pre-mortem](./learn/pre-mortem.md) - assume it failed, and ask why
 - 🚦 [Go / No-Go Poll](./learn/go-no-go.md) - why silence must not count as agreement
 - ✈️ [Pre-Committed Triggers](./learn/pre-committed-triggers.md) - why no card here prints a rollback number
+- ➡️ [Plan Continuation Bias](./learn/plan-continuation-bias.md) - the pull to press on regardless
 - 👥 [Two-Person Rule](./learn/two-person-rule.md) - dual control for irreversible actions
 - 👉 [Pointing and Calling](./learn/pointing-and-calling.md) - say the target out loud
 

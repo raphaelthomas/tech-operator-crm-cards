@@ -62,3 +62,7 @@ disk alert was filed as confirmation instead of contradiction.
 Naming the bias does not prevent it, and knowing the three patterns does not help you
 recognise your own in the moment. The countermeasures that work are external or
 pre-committed, which is why they belong on the card rather than here.
+
+Fixation is about failing to revise your *assessment*. The related failure of seeing the
+cues and continuing the *plan* regardless is [Plan Continuation
+Bias](./plan-continuation-bias.md).

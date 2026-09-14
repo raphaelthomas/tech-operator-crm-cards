@@ -3,7 +3,8 @@
 ## What it is
 
 Deciding the abort criterion *before* entering the risky phase, and stating it aloud, so
-that the moment of crisis contains execution rather than deliberation.
+that the moment of crisis contains execution rather than deliberation. It is the principal
+defence against [Plan Continuation Bias](./plan-continuation-bias.md).
 
 This is why no card here prints a rollback threshold or a time limit. What transfers is not
 a value but the discipline of computing your own in advance and committing to it.
